@@ -30,37 +30,4 @@
                 ]
             }
         ]
-    },
-    {
-        "icon": "s3_path",
-        "name": "travel",
-        "label": "_SURVEY_travel_label",
-        "questions": [{
-                "name": "name_for_analytics",
-                "label": "_SURVEY_travel_question_1",
-                "options": [
-                    {
-                        "default": true,
-                        "name": "name_for_analytics",
-                        "title": "_SURVEY_travel_question_0_answer_0"
-                    },
-                    {
-                        "default": false,
-                        "name": "name_for_analytics",
-                        "title": "_SURVEY_travel_question_0_answer_1"
-                    },
-                    {
-                        "default": false,
-                        "name": "name_for_analytics",
-                        "title": "_SURVEY_travel_question_0_answer_2"
-                    },
-                    {
-                        "default": false,
-                        "name": "name_for_analytics",
-                        "title": "_SURVEY_travel_question_0_answer_3"
-                    }
-                ]
-            }
-        ]
-    }
-]
+    }]
