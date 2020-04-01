@@ -1,14 +1,66 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+  {
+        "icon": "s3_path",
+        "name": "food",
+        "label": "_SURVEY_food_label",
+        "questions": [{
+                "name": "name_for_analytics",
+                "label": "_SURVEY_food_question_1",
+                "options": [
+                    {
+                        "default": true,
+                        "name": "name_for_analytics",
+                        "title": "_SURVEY_food_question_0_answer_0"
+                    },
+                    {
+                        "default": false,
+                        "name": "name_for_analytics",
+                        "title": "_SURVEY_food_question_0_answer_1"
+                    },
+                    {
+                        "default": false,
+                        "name": "name_for_analytics",
+                        "title": "_SURVEY_food_question_0_answer_2"
+                    },
+                    {
+                        "default": false,
+                        "name": "name_for_analytics",
+                        "title": "_SURVEY_food_question_0_answer_3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "icon": "s3_path",
+        "name": "travel",
+        "label": "_SURVEY_travel_label",
+        "questions": [{
+                "name": "name_for_analytics",
+                "label": "_SURVEY_travel_question_1",
+                "options": [
+                    {
+                        "default": true,
+                        "name": "name_for_analytics",
+                        "title": "_SURVEY_travel_question_0_answer_0"
+                    },
+                    {
+                        "default": false,
+                        "name": "name_for_analytics",
+                        "title": "_SURVEY_travel_question_0_answer_1"
+                    },
+                    {
+                        "default": false,
+                        "name": "name_for_analytics",
+                        "title": "_SURVEY_travel_question_0_answer_2"
+                    },
+                    {
+                        "default": false,
+                        "name": "name_for_analytics",
+                        "title": "_SURVEY_travel_question_0_answer_3"
+                    }
+                ]
+            }
+        ]
+    }
+]
